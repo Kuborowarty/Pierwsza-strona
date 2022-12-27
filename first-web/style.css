@@ -1,0 +1,265 @@
+.sub {
+    background-color: rgb(201, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 35px;
+    width: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border: none;
+    border-radius: 7px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: background-color 0.3s, opacity 0.3s;
+    margin-left: 750px;
+}
+
+.sub:hover {
+    background-color: rgb(177, 0, 0);
+}
+
+.sub:active {
+    opacity: 0.8;
+}         
+
+.join {
+    background-color: rgb(52, 103, 165);
+    border: rgb(52, 103, 165);
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    width: 90px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    font: bold;
+    font-size: 15px;
+    transition: border-radius 1s, opacity 0.4s;
+}
+
+.join:hover {
+    border-radius: 15px;
+}
+
+.join:active {
+    opacity: 0.8;
+}
+
+.tweet {
+    background-color: rgb(29, 155, 240);
+    border: none;
+    border-radius: 35px;
+    color: white;
+    height: 35px;
+    width: 90px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 0.5s;
+
+}
+
+.tweet:hover {
+    background-color: rgb(92, 175, 230);
+}
+
+.tweet:active {
+    opacity: 0.9;
+}
+
+.tytul {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 10px;
+    font-size: 54;
+    margin-top: 15px;
+    width: 300;
+    line-height: 45px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-left: 800px;
+    text-shadow: 0px 0px 30px rgb(92, 175, 230);
+    position: relative;
+    border: transparent;
+
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+} 
+
+@keyframes slideInLeft {
+    from {
+      transform: translateY(-500px);
+    }
+
+    to{
+      transform: translateY(0);
+    }
+}
+
+.opis {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.555);
+    letter-spacing: 0.5px;
+    border-right: 1px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 15s steps(172),
+        cursor .5s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+.counta {
+    display: inline-block;
+    margin-left: 360px;
+    
+}
+
+.pasek {
+    width: 1910px;
+    height: 3.5px;
+    background-color: rgb(25, 175, 191);
+    box-shadow: 0px 0px 20px rgb(25, 175, 191);
+    margin-top: 10px;
+    
+}
+
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    text-shadow: 0px 0px 15px rgb(92, 175, 230);
+    
+}
+
+.buttons1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    text-shadow: 0px 0px 15px rgb(92, 175, 230)
+}
+
+.github {
+    width: 85px;
+    height: 33px;
+    margin-left: 10px;
+    background-color: #02244b;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    transition: box-shadow 0.5s, font-size 0.1s, width 0.2s, height 0.2s;
+
+}
+
+.github:hover {
+    box-shadow: 0px 0px 25px rgb(25, 175, 191);
+    width: 90px;
+    height: 33px;
+}
+
+.github:active {
+    font-size: 13px;
+    box-shadow: 0px 0px 20px white;
+
+} 
+
+.inne {
+    
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    text-shadow: 0px 0px 15px rgb(92, 175, 230);
+    
+}
+
+.serwer {
+    margin-left: 890px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(51, 84, 172);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 40px white;
+    cursor: pointer;
+    transition: box-shadow 1s, opacity 0.2s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.serwer:hover {
+    box-shadow: 0px 0px 30px rgba(35, 35, 138, 0.37);
+}
+
+.serwer:active {
+    opacity: 0.9;
+}    
+
+.sat {
+    margin-bottom: 20px;
+    border: transparent;
+    margin-top: 0px;
+    margin-left: 150px;
+
+
+    
+    animation-name: sat;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sat {
+
+    0% { transform: translateY(0) rotate(-10deg);}
+    5% { transform: translateY(-1px) rotate(-10deg);}
+    10% { transform: translateY(-2px) rotate(-10deg);}
+    15% { transform: translateY(-3px) rotate(-10deg);}
+    20% { transform: translateY(-4px) rotate(-10deg);}
+    25% { transform: translateY(-5px) rotate(-10deg);}
+    30% { transform: translateY(-6px) rotate(-10deg);}
+    35% { transform: translateY(-7px) rotate(-11deg);}
+    40% { transform: translateY(-8px) rotate(-12deg);}
+    45% { transform: translateY(-9px) rotate(-13deg);}
+    50% { transform: translateY(-8px) rotate(-12deg);}
+    55% { transform: translateY(-7px) rotate(-11deg);}
+    60% { transform: translateY(-6px) rotate(-10deg);}
+    65% { transform: translateY(-5px) rotate(-9deg);}
+    70% { transform: translateY(-4) rotate(-8deg);}
+    75% { transform: translateY(-3px) rotate(-10deg);}
+    80% { transform: translateY(-2px) rotate(-10deg);}
+    85% { transform: translateY(-1px) rotate(-10deg);}
+    90% { transform: translateY(0) rotate(-10deg);}
+    95% { transform: translateY(1px) rotate(-10deg);}
+    100% { transform: translateY(0) rotate(-10deg);}
+}
